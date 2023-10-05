@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+}
+
+.card {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
+    linear-gradient(127deg, rgba(0,255,0,.8), rgba(0,255,0,0) 70.71%),
+    linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
+}
+
+.div {
+    display: flex;
+    gap: 20px;
+}
+
+p {
+    font-size: 32px;
+}
+
+.button1 {
+    /*padding: 15px 15px;*/
+    display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: black;
+  background-color: #a7c957;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #386641;
+
+  
+}
+
+.button2 {
+   /* padding: 15px 15px;*/
+    display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: black;
+  background-color: #a7c957;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #386641;
+}
+
+.button1:hover {
+    background-color: #ff9b54;
+}
+
+.button1:active {
+    background-color: #ff9b54;
+    box-shadow: 0 5px #386641;
+    transform: translateY(4px);
+}
+
+.button2:hover {
+    background-color: #ff9b54;
+}
+
+.button2:active {
+    background-color: #ff9b54;
+    box-shadow: 0 5px #386641;
+    transform: translateY(4px);
+}
+
+.h1 {
+    text-align: center;
+    color: black;
+}
