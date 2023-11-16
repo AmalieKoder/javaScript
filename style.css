@@ -19,6 +19,10 @@ body {
     gap: 20px;
 }
 
+.gitHub {
+    color: black;
+}
+
 p {
     font-size: 32px;
 }
